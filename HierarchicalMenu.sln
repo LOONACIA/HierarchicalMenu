@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32414.318
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "★ Presentation", "★ Presentation", "{E3A00A50-2E9C-4A3A-B503-21C72CCEC76B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Using Attributes and DI", "1. Using Attributes and DI", "{A684DD0C-0F70-4D8F-8B8A-B1C8D8574648}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HierarchicalMenu", "1. Using Attributes and DI\HierarchicalMenu\HierarchicalMenu.csproj", "{779E365F-F05E-4928-AAD6-94CBA5B0D9A6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HierarchicalMenu.ViewModels", "1. Using Attributes and DI\HierarchicalMenu.ViewModels\HierarchicalMenu.ViewModels.csproj", "{6F83DEA4-81BF-4E46-B8AD-F3A6A4C73513}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{C6BD9D34-6658-468B-8090-CCE28BFD9EC3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "★ Base", "★ Base", "{4479A96B-7BF9-4C02-B032-C5F12B51ADDC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HierarchicalMenu.Common", "HierarchicalMenu.Common\HierarchicalMenu.Common.csproj", "{5C01B8DD-0E7B-4C75-A7E3-32DC90676137}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HierarchicalMenu.Views", "HierarchicalMenu.Views\HierarchicalMenu.Views.csproj", "{1750707B-CCFF-4395-B097-82A1E7739E05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "★ Service", "★ Service", "{3999C010-4CD9-4632-8CCC-5D3D39F7E25A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{779E365F-F05E-4928-AAD6-94CBA5B0D9A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779E365F-F05E-4928-AAD6-94CBA5B0D9A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779E365F-F05E-4928-AAD6-94CBA5B0D9A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779E365F-F05E-4928-AAD6-94CBA5B0D9A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F83DEA4-81BF-4E46-B8AD-F3A6A4C73513}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F83DEA4-81BF-4E46-B8AD-F3A6A4C73513}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F83DEA4-81BF-4E46-B8AD-F3A6A4C73513}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F83DEA4-81BF-4E46-B8AD-F3A6A4C73513}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C01B8DD-0E7B-4C75-A7E3-32DC90676137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C01B8DD-0E7B-4C75-A7E3-32DC90676137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C01B8DD-0E7B-4C75-A7E3-32DC90676137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C01B8DD-0E7B-4C75-A7E3-32DC90676137}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1750707B-CCFF-4395-B097-82A1E7739E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1750707B-CCFF-4395-B097-82A1E7739E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1750707B-CCFF-4395-B097-82A1E7739E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1750707B-CCFF-4395-B097-82A1E7739E05}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{779E365F-F05E-4928-AAD6-94CBA5B0D9A6} = {A684DD0C-0F70-4D8F-8B8A-B1C8D8574648}
+		{6F83DEA4-81BF-4E46-B8AD-F3A6A4C73513} = {C6BD9D34-6658-468B-8090-CCE28BFD9EC3}
+		{C6BD9D34-6658-468B-8090-CCE28BFD9EC3} = {A684DD0C-0F70-4D8F-8B8A-B1C8D8574648}
+		{5C01B8DD-0E7B-4C75-A7E3-32DC90676137} = {4479A96B-7BF9-4C02-B032-C5F12B51ADDC}
+		{1750707B-CCFF-4395-B097-82A1E7739E05} = {E3A00A50-2E9C-4A3A-B503-21C72CCEC76B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {395AC50F-084E-4954-BFFD-A09E05BF0108}
+	EndGlobalSection
+EndGlobal
