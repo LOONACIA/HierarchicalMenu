@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\HierarchicalMenu.Views\HierarchicalMenu.Views.csproj" />
+    <ProjectReference Include="..\HierarchicalMenu.ViewModels\HierarchicalMenu.ViewModels.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Page Update="Resources\Mappings.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+    <Page Update="Resources\VectorGraphics.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+    </Page>
+  </ItemGroup>
+
+</Project>

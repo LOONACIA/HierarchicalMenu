@@ -1,4 +1,4 @@
-﻿namespace HierarchicalMenu.ViewModels;
+﻿namespace HierarchicalMenu.ViewModels.Extensions;
 
 internal static class PresentationItemExtensions
 {

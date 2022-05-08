@@ -6,18 +6,22 @@ using System.Collections.ObjectModel;
 
 namespace HierarchicalMenu.ViewModels.Core;
 
+[Export(typeof(ApplicationViewModel))]
 public partial class ApplicationViewModel : ObservableRecipient, IRecipient<ChangeModulePresentationItemMessage>
 {
 	#region Fields
 	private readonly IModuleViewModelFactory _moduleViewModelFactory;
 	#endregion
 
+	#region Constructors
+	[ImportingConstructor]
 	public ApplicationViewModel(IModuleViewModelFactory moduleViewModelFactory)
 	{
 		this._moduleViewModelFactory = moduleViewModelFactory;
 		this._menuItems = this._moduleViewModelFactory.ModulePresentationHierarchy.ToObservable();
 		Messenger.Register(this);
 	}
+	#endregion
 
 	#region Properties
 	[ObservableProperty]

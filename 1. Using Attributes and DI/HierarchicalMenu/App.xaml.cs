@@ -1,11 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.DependencyInjection;
 using HierarchicalMenu.ViewModels.Core;
 using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace HierarchicalMenu;

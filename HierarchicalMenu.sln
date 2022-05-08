@@ -19,6 +19,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HierarchicalMenu.Common", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HierarchicalMenu.Views", "HierarchicalMenu.Views\HierarchicalMenu.Views.csproj", "{1750707B-CCFF-4395-B097-82A1E7739E05}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Using Attributes and MEF", "2. Using Attributes and MEF", "{989F6B0F-C01B-4C17-B998-2399DB795589}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchicalMenu.ViewModels", "2. Using Attributes and MEF\HierarchicalMenu.ViewModels\HierarchicalMenu.ViewModels.csproj", "{13C6C48A-75D2-46DA-9010-55BF2C482AE5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ViewModels", "ViewModels", "{47009F6D-BE50-494B-AB43-F4D91DDA2DA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HierarchicalMenu", "2. Using Attributes and MEF\HierarchicalMenu\HierarchicalMenu.csproj", "{77C4434C-A8A3-4A64-8334-FE590CE1E75F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,6 +49,14 @@ Global
 		{1750707B-CCFF-4395-B097-82A1E7739E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1750707B-CCFF-4395-B097-82A1E7739E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1750707B-CCFF-4395-B097-82A1E7739E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{13C6C48A-75D2-46DA-9010-55BF2C482AE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{13C6C48A-75D2-46DA-9010-55BF2C482AE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{13C6C48A-75D2-46DA-9010-55BF2C482AE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{13C6C48A-75D2-46DA-9010-55BF2C482AE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77C4434C-A8A3-4A64-8334-FE590CE1E75F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77C4434C-A8A3-4A64-8334-FE590CE1E75F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77C4434C-A8A3-4A64-8334-FE590CE1E75F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77C4434C-A8A3-4A64-8334-FE590CE1E75F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -51,6 +67,9 @@ Global
 		{C6BD9D34-6658-468B-8090-CCE28BFD9EC3} = {A684DD0C-0F70-4D8F-8B8A-B1C8D8574648}
 		{5C01B8DD-0E7B-4C75-A7E3-32DC90676137} = {4479A96B-7BF9-4C02-B032-C5F12B51ADDC}
 		{1750707B-CCFF-4395-B097-82A1E7739E05} = {E3A00A50-2E9C-4A3A-B503-21C72CCEC76B}
+		{13C6C48A-75D2-46DA-9010-55BF2C482AE5} = {47009F6D-BE50-494B-AB43-F4D91DDA2DA7}
+		{47009F6D-BE50-494B-AB43-F4D91DDA2DA7} = {989F6B0F-C01B-4C17-B998-2399DB795589}
+		{77C4434C-A8A3-4A64-8334-FE590CE1E75F} = {989F6B0F-C01B-4C17-B998-2399DB795589}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {395AC50F-084E-4954-BFFD-A09E05BF0108}

@@ -1,0 +1,32 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+					xmlns:modules="clr-namespace:HierarchicalMenu.ViewModels.Modules;assembly=HierarchicalMenu.ViewModels"
+					xmlns:modulea="clr-namespace:HierarchicalMenu.ViewModels.Modules.ModuleA;assembly=HierarchicalMenu.ViewModels"
+					xmlns:moduleab="clr-namespace:HierarchicalMenu.ViewModels.Modules.ModuleA.ModuleAB;assembly=HierarchicalMenu.ViewModels"
+					xmlns:views="clr-namespace:HierarchicalMenu.Views.Modules;assembly=HierarchicalMenu.Views">
+
+	<DataTemplate DataType="{x:Type modules:ModuleAViewModel}">
+		<views:ModuleA/>
+	</DataTemplate>
+
+	<DataTemplate DataType="{x:Type modules:ModuleBViewModel}">
+		<views:ModuleB/>
+	</DataTemplate>
+
+	<DataTemplate DataType="{x:Type modulea:ModuleAAViewModel}">
+		<views:ModuleAA/>
+	</DataTemplate>
+
+	<DataTemplate DataType="{x:Type modulea:ModuleABViewModel}">
+		<views:ModuleAB/>
+	</DataTemplate>
+
+	<DataTemplate DataType="{x:Type moduleab:ModuleABAViewModel}">
+		<views:ModuleABA/>
+	</DataTemplate>
+
+	<DataTemplate DataType="{x:Type moduleab:ModuleABBViewModel}">
+		<views:ModuleABB/>
+	</DataTemplate>
+	
+</ResourceDictionary>

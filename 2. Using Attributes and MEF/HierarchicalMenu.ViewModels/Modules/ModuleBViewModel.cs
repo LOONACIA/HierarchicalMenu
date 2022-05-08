@@ -1,8 +1,8 @@
 ﻿namespace HierarchicalMenu.ViewModels.Modules;
 
-[Header("Module B")]
-[Order(1)]
-[IconType(IconType.None)]
+[Export(typeof(IModuleViewModel))]
+[ExportMetadata("Header", "Module B")]
+[ExportMetadata("Order", 1)]
 public partial class ModuleBViewModel : ModuleViewModelBase
 {
 }
