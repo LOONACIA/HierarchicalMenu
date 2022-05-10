@@ -12,11 +12,11 @@ internal static class Bootstrapper
 {
 	internal static void Initialize()
 	{
-		var services = ConfigureSerivces();
+		var services = ConfigureServices();
 		Ioc.Default.ConfigureServices(services);
 	}
 
-	private static IServiceProvider ConfigureSerivces()
+	private static IServiceProvider ConfigureServices()
 	{
 		var services = new ServiceCollection();
 
